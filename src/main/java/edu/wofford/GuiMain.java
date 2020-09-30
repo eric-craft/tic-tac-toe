@@ -57,7 +57,6 @@ public class GuiMain extends JFrame implements ActionListener {
         //setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 400);
         //setVisible(true);
-        System.out.println("hi");
     }
 
     public void actionPerformed(ActionEvent event) {
@@ -71,9 +70,9 @@ public class GuiMain extends JFrame implements ActionListener {
         //label.setText("clicked " + row + " " + col);
         //while(!ticTac.isWinner()) {
         //if (ticTac.playerMove(row, col)) {
-        if (!ticTac.isWinner()) {
-            b.setText(ticTac.getPlayerTurn());
+        if (!ticTac.isWinner() ) {
             ticTac.playerMove(row, col);
+            b.setText(ticTac.getIndexValue(row, col));
         } 
         //}
         if (ticTac.isWinner()) {
