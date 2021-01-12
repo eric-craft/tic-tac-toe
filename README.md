@@ -1,4 +1,9 @@
-# COSC410 Assignment 4
+# COSC410 Tic Tac Toe
+
+## Showcase
+### Console Playthrough
+
+### GUI Playthrough
 
 ## Tic Tac Toe
 This project provides both a terminal-based and GUI-based Tic Tac Toe game. 
