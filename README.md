@@ -2,8 +2,10 @@
 
 ## Showcase
 ### Console Playthrough
+![](TicTacToe.gif)
 
 ### GUI Playthrough
+![](TicTacToeGUI.gif)
 
 ## Tic Tac Toe
 This project provides both a terminal-based and GUI-based Tic Tac Toe game. 
